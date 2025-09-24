@@ -33,3 +33,15 @@ body{
 .p align{
     font-family: 'Lucida Sans';
 }
+
+.produto1{
+    display: flex;
+    height: 200px;
+    margin-left: auto;
+    grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas com a mesma largura */
+    gap: 20px; /* Cria um espaço (distância) de 20px entre as imagens */
+    width: fit-content;
+    border: 5px;
+    border-radius:5px rgb(1, 1, 85);
+}
+
