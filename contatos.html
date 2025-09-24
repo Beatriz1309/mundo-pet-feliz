@@ -10,11 +10,11 @@
     
     <header> 
       <div class = "logo"> 
-        <img src = "imagem-quemsomos.png" width="100" eight="50">  
+        <img src = "https://scontent-gru2-1.cdninstagram.com/v/t1.15752-9/550352260_559762827199154_4825382975095865081_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_ohc=5rtLYUfERTYQ7kNvwHdNuhC&_nc_oc=Adk4PknpFzaxQ8UM2wAqfo2FWgCP2CT28loG1Jl6orkNoHD3fJtFH1JEkD4a1KBA5ao&_nc_zt=23&_nc_ht=scontent-gru2-1.cdninstagram.com&oh=03_Q7cD3QEF2MJ-wlTyXyyPMKqAMGSGAiytljJLXUmlp6-GhmLhhQ&oe=68FB6E92" alt="Logo Mundo Pet Feliz">  
       </div>
 
    <nav class="nav-container"> 
-     <table style="width:100%;" border="0" cellspacing="0" cellpadding="0">
+     <table style="width:100%;" border ="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center"><a href="index.html">Home</a></td>
     <td align="center"><a href="quemsomos.html">Quem Somos Nós</a></td>
@@ -23,38 +23,58 @@
 </table>
     </header>
 
-<main> 
-  <h1>Entre em Contato</h1>
-  <h2> Para entrar em contato com a gente: </h2>
-  <p> Telefone de Contato: (11) 98765-4321 <br>
-Endereço de E-mail: contato@mundopetfeliz.com.br<br>
-Endereço Físico: Rua dos Bichos, 123 no Bairro da Alegria, em São Paulo, SP <br>
-Horário de funcionamento:
-Segunda a Sexta: 9h às 18h<br>
-Sábados: 9h às 13h<br>
-Domingos e Feriados: Fechado</p>
-</main>
-<form>
-<h2 style="color: black"> Formulário de Cadastro para Contato</h2>
-<p class="centro"></p>
-  <label for ="nome">Nome Completo:</label>
-  <input type = "text" id ="nome" placeholder = "Digite seu nome">
-  <br><br>
+        <section class="info-contato">
+            <h2>Entre em Contato</h2>
+            <h2>Para falar com a gente:</h2>
+            <p>
+                <strong>Telefone de Contato:</strong> (11) 98765-4321 <br>
+                <strong>Endereço de E-mail:</strong> contato@mundopetfeliz.com.br <br>
+                <strong>Endereço Físico:</strong> Rua dos Bichos, 123 no Bairro da Alegria, em São Paulo, SP <br>
+            </p>
+            <h3>Horário de funcionamento:</h3>
+            <p>
+                <strong>Segunda a Sexta:</strong> 9h às 18h <br>
+                <strong>Sábados:</strong> 9h às 13h <br>
+                <strong>Domingos e Feriados:</strong> Fechado
+            </p>
+        </section>
 
-  <label for ="email">E-mail:</label>
-  <input type = "email" id ="email" placeholder = "Digite seu email"
-<br><br>
+        <section class="formulario-contato">
+            <h2>Envie sua Mensagem para a equipe da Mundo Pet Feliz</h2>
+            <p class="chamada-acao">
+                Tem alguma dúvida, sugestão ou quer marcar um horário? Use nosso formulário abaixo!
+            </p>
+            <form action="#" method="post">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
 
-  <label for ="assunto">Assunto:</label>
-  <input type = "text" id ="assunto" placeholder = "Explique o motivo do seu contato"
-<br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
 
-  <label for ="mensagem">Mensagem:</label>
-  <textarea id ="mensagem" name="mensagem" rows="4" cols="40>"
-<br><br>
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Explique o motivo do seu contato" required>
 
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="20" placeholder="Escreva sua mensagem aqui" required></textarea>
 
-<button type = "submit">Enviar</button>
-</form>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+        <footer>
+                <div class="redes-sociais"></div>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <img src="https://i.pinimg.com/736x/db/19/33/db19332a23a44f772c5a1855a8aabf70.jpg" alt="Logo do Facebook">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <img src="https://i.pinimg.com/736x/c4/05/9d/c4059db01cd59796c9016a2581aa32a7.jpg" alt="Logo do Instagram">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok">
+                <img src="https://i.pinimg.com/736x/e4/06/19/e406192290967ba61e8277e7dbfde0a5.jpg" alt="Logo do TikTok">
+            </a>
+        </div>
+        <p class="copy">&copy; 2024 Mundo Pet Feliz. Todos os direitos reservados.</p>
+    </footer>
+    </main>
+
 </body>
 </html>
